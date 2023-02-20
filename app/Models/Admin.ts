@@ -7,7 +7,7 @@ export default class Admin extends BaseModel {
   public id: number
 
   @column()
-  public adminname: string
+  public username: string
 
   @column()
   public email: string
